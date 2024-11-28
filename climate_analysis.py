@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 """ Climate Analysis Toolkit"""
+=======
+" Climate analysis tool"
+>>>>>>> 6c7532e8480c54526faccd0d2fb7fca3e6a79a06
 
 import sys
 import temp_conversion
@@ -27,4 +31,9 @@ for line in climate_data:
             kelvin = temp_conversion.fahr_to_kelvin(fahr)
 
             print(str(celsius)+", "+str(kelvin))
+<<<<<<< HEAD
 # TODO: "Addd a fucntios to process rainfall data"
+=======
+
+#TODO(smanghan): Add call to process rainfall
+>>>>>>> 6c7532e8480c54526faccd0d2fb7fca3e6a79a06
